@@ -1,18 +1,26 @@
 ﻿using UnityEngine;
 
-public class FallTrigger : MonoBehaviour {
+public class FallTrigger : MonoBehaviour
+{
 
-    private float thrust;
-    private Rigidbody rb;
-   
+	public Capsule myCP;
 
     void Start () {
-        rb = GetComponent<Rigidbody>();
-        thrust = 50.0f;
+        
     }
 	
 	
 	void Update () {
-        rb.AddForce(transform.forward * thrust);
+       
+        
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+      // myCP.pushMe();
+	    
+	    Debug.Log("Hi there");
+        
     }
 }
