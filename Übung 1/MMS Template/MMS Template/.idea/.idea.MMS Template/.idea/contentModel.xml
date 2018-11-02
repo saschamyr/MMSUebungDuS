@@ -3,7 +3,9 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets/BallScript.cs" t="Include" />
       <e p="Assets/Capsule.cs" t="Include" />
+      <e p="Assets/CubeScript.cs" t="Include" />
       <e p="Assets/Scripts" t="Include">
         <e p="FallTrigger.cs" t="Include" />
       </e>

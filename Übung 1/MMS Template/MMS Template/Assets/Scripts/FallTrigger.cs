@@ -3,7 +3,7 @@
 public class FallTrigger : MonoBehaviour
 {
 
-	public Capsule myCP;
+	private Capsule _myCP;
 
     void Start () {
         
@@ -18,7 +18,9 @@ public class FallTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-      // myCP.pushMe();
+	    _myCP = FindObjectOfType<Capsule>();
+	   
+	    _myCP.pushMe();
 	    
 	    Debug.Log("Hi there");
         
