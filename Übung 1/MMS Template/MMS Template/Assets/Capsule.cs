@@ -29,7 +29,7 @@ public class Capsule : MonoBehaviour {
         Debug.Log("Hi there");
         
         //DESTROY OBJECT HERE
-        
+        Destroy(this);
     }
     
     

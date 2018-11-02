@@ -30,6 +30,7 @@ public class BallScript : MonoBehaviour {
 		
 		
 		//DESTROY OBJECT HERE
+		Destroy(this);
         
 	}
 	

@@ -25,6 +25,7 @@ public class CubeScript : MonoBehaviour {
 		
 	    
 		Debug.Log("Hi there");
+		Destroy(this);
         
 		//DESTROY OBJECT HERE
         

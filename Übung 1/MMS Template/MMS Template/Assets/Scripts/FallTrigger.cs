@@ -23,6 +23,8 @@ public class FallTrigger : MonoBehaviour
 	    _myCP.pushMe();
 	    
 	    Debug.Log("Hi there");
+	    
+	    Destroy(this);
         
     }
 }
